@@ -14,7 +14,7 @@ Dentro de cada carpeta encontrarás un listado de propuestas con ejercicios en u
 
 1. Haz un `fork` de este repositorio.
 2. Ve a la carpeta correspondiente al capítulo y crea un archivo con extensión `.rs`por cada solución que quieras aportar.
-El nombre del archivo debe seguir esta estructura: `<capitulo>/<ejercicio>/<tu_usuario_de_github>.rs`.
+El nombre del archivo debe seguir esta estructura: `<capitulo>/<numero_ejercicio>_<tu_usuario_de_github>.rs`.
 Por ejemplo, si estás resolviendo el ejercicio 3 del capítulo 7 y tu nombre de usuario en GitHub es `Moss`, el archivo debe ubicarse en `capitulo07/07_03_moss.rs`.
 Si necesitas subir varios archivos para una misma solución, entonces crea una subcarpeta con la misma estructura e incluye dentro del conjunto de archivos. 
 3. Haz una Pull Request` con tu solución.
@@ -27,7 +27,7 @@ cd mi-rust-ejercicios
 ```
 2. Crea una nueva rama para trabajar en tu solución. Sustituye `XX` por el capítulo e `YY` por el ejercicio correspondiente.
 ```
-git checkout -b solucion-capitulo-XX-ejercicio-YY
+git switch -c solucion-capitulo-XX-ejercicio-YY
 ```
 3. Añade tu archivo `.rs` en la carpeta correcta siguiendo la estructura descrita previamente.
 4. Guarda los cambios y súbelos a tu repositorio:
